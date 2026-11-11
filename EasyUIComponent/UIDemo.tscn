@@ -1,0 +1,37 @@
+[gd_scene format=3 uid="uid://cayakidoimcxu"]
+
+[ext_resource type="Script" uid="uid://sgxy55wy380w" path="res://EasyUIComponent/UIDemo.cs" id="1_q88vl"]
+
+[node name="UiDemo" type="Control" unique_id=293004761]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_q88vl")
+
+[node name="MarginContainer" type="MarginContainer" parent="." unique_id=1532636539]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+theme_override_constants/margin_left = 20
+theme_override_constants/margin_top = 20
+
+[node name="AlertHBoxContainer" type="HBoxContainer" parent="MarginContainer" unique_id=2015380984]
+layout_mode = 2
+theme_override_constants/separation = 20
+
+[node name="AlertTextBtn" type="Button" parent="MarginContainer/AlertHBoxContainer" unique_id=1697747971]
+layout_mode = 2
+text = "AlertText"
+
+[node name="AlertTextOkBtn" type="Button" parent="MarginContainer/AlertHBoxContainer" unique_id=919764706]
+layout_mode = 2
+theme_override_constants/h_separation = 4
+text = "AlertTextOk"
+
+[node name="AlertTextConfirmBtn" type="Button" parent="MarginContainer/AlertHBoxContainer" unique_id=1566129847]
+layout_mode = 2
+theme_override_constants/h_separation = 4
+text = "AlertTextConfirmBtn"

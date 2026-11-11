@@ -1,0 +1,65 @@
+[gd_scene format=3 uid="uid://dfguuvsd3ypyd"]
+
+[ext_resource type="Script" uid="uid://clbaleeoqrxlt" path="res://EasyUIComponent/Scripts/EasyUIComponent/Alert/Nodes/UiAlertTextOkNode.cs" id="1_27rn1"]
+
+[node name="UiAlertTextOk" type="Control" unique_id=1953537736]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_27rn1")
+
+[node name="PopupPanel" type="PopupPanel" parent="." unique_id=1099227696]
+oversampling_override = 1.0
+initial_position = 2
+size = Vector2i(308, 158)
+visible = true
+
+[node name="Panel" type="Panel" parent="PopupPanel" unique_id=1837818474]
+custom_minimum_size = Vector2(300, 150)
+offset_left = 4.0
+offset_top = 4.0
+offset_right = 304.0
+offset_bottom = 154.0
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="Label" type="Label" parent="PopupPanel/Panel" unique_id=1134965415]
+custom_minimum_size = Vector2(280, 100)
+custom_maximum_size = Vector2(280, 100)
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -140.0
+offset_top = 7.0
+offset_right = 140.0
+offset_bottom = 107.0
+grow_horizontal = 2
+text = "这个是一个文字提示"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="MarginContainer" type="MarginContainer" parent="PopupPanel/Panel" unique_id=1341255620]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -72.0
+offset_top = -52.0
+offset_right = 72.0
+grow_horizontal = 2
+grow_vertical = 0
+size_flags_vertical = 8
+
+[node name="LinkButton" type="LinkButton" parent="PopupPanel/Panel/MarginContainer" unique_id=1299632391]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+text = "确认"
+underline = 1
