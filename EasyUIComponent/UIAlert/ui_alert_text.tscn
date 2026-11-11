@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://cc36n1lbe60j1"]
 
-[ext_resource type="Script" uid="uid://cvlvswvunxaaa" path="res://EasyUIComponent/Scripts/EasyUIComponent/Alert/Nodes/UiAlertTextNode.cs" id="1_kejy6"]
+[ext_resource type="Script" uid="uid://cvlvswvunxaaa" path="res://EasyUIComponent/Scripts/Core/Alert/Nodes/UiAlertTextNode.cs" id="1_kejy6"]
 
 [node name="UIAlert" type="Control" unique_id=116814219]
 layout_mode = 3

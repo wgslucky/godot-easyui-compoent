@@ -6,9 +6,9 @@ public partial class UiAlertManager
 
 	public static void RegisterUI()
 	{
-		UIViewControlService.Instance().RegisterUIView("AlertTextUI","res://UIAlert/ui_alert_text.tscn");
-		UIViewControlService.Instance().RegisterUIView("AlertTextOkUI","res://UIAlert/ui_alert_text_ok.tscn");
-		UIViewControlService.Instance().RegisterUIView("AlertTextOkCanncelUI","res://UIAlert/ui_alert_text_confirm.tscn");
+		UIViewControlService.Instance().RegisterUIView("AlertTextUI","res://EasyUIComponent/UIAlert/ui_alert_text.tscn");
+		UIViewControlService.Instance().RegisterUIView("AlertTextOkUI","res://EasyUIComponent/UIAlert/ui_alert_text_ok.tscn");
+		UIViewControlService.Instance().RegisterUIView("AlertTextOkCanncelUI","res://EasyUIComponent/UIAlert/ui_alert_text_confirm.tscn");
 	}
 
 	/// <summary>
